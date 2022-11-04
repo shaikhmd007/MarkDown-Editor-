@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+body {
+  background: #111317;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h2 {
+  color: #fff;
+  /* align-items: center; */
+  text-align: center;
+  /* background-color: aqua; */
+  border: 2px solid whitesmoke;
+  margin: 0.2rem;
+  border-radius:  10px;
+  ;
+}
+
+.container {
+  display: flex;
+}
+
+.textarea {
+  width: 35vw;
+  height: 540px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.output {
+  font-size: 18px;
+  width: 35vw;
+  height: 540px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  line-height: 3rem;
+  color: #000;
+}
